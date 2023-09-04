@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.a-container{
+    height: 400px;
+    width: 600px;
+    background: #00ff00;
+    position: absolute;
+    top: 5rem;
+    right: 15rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.a-container i{
+    position: absolute;
+    top: .2rem;
+    right: 1rem;
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.a-container i:nth-child(2){
+    top: .4rem;
+    right: 3rem;
+    font-size: 1rem;
+    
+}
+.a-container i:nth-child(3){
+    top: .3rem;
+    right: 4.5rem;
+}
+.a-container .a-wraper{
+    height: 370px ;
+    width: 596px;
+    background-color: #333;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+.a-wraper h1{
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+.a-wraper .img{
+    height: 18rem;
+    width: 11.5rem;
+    overflow: hidden;
+    position: absolute;
+    bottom: 1rem;
+    left: .6rem;
+    border: 2px solid #00ff00;
+}
+.a-wraper .img img{
+    height: 18rem;
+}
+
+.a-wraper .detail{
+    height: 18rem;
+    width: 24rem;
+    border: 2px solid #00ff00;
+    position: absolute;
+    right: .6rem;
+    bottom: 1rem;
+}
+.a-wraper .detail h2{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    text-decoration: underline;
+}
+.a-wraper .detail h3{
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+.a-wraper .detail h3 b{
+    font-weight: 700;
+}

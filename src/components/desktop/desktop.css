@@ -1,0 +1,34 @@
+.folders{
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+    width: 6rem;
+    height: 90vh;
+}
+.folders .file {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    width: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.8rem;
+}
+
+.folders .file i{
+    font-size: 3rem;
+    color: #00ff00;
+}
+.folders .file .bxs-folder{
+    display: block;
+}
+.folders .file:hover .bxs-folder{
+    display: none;
+
+}
+.folders .file .bxs-folder-open{
+    display: none;
+}
+.folders .file:hover .bxs-folder-open{
+    display: block;
+}
